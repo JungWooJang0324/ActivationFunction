@@ -30,14 +30,14 @@ Relu와 Leaky Relu모두 CIFAR-10 이미지 인식 방법을 사용하였습니�
 ReLU(정류된 선형 유닛) 활성화 함수를 사용한 CNN 예제입니다. ReLU는 이미지 처리 작업에서 간단하면서도 효과적인 활성화 함수로 많이 사용됩니다.  
 
 Relu의 정확도는 70%정도로 나왔습니다. 
-![ReLu_정확도](image/RelU_정확도.png)  
+![ReLu_정확도](image/Relu_정확도.png)  
 파일: [`relu_in_cnn.py`](relu_in_cnn.py)
 
 ### Leaky ReLU
 Leaky ReLU 활성화 함수를 사용한 합성곱 신경망(CNN) 예제입니다. Leaky ReLU는 입력이 음수일 때도 작은 기울기를 유지해 "죽은 ReLU" 문제를 해결합니다.  
 
 LeakyRelu의 정확도는 71%정도로 Relu보다 조금 더 높은 정확도를 확인 할 수 있습니다. 
-![LeakyReLU_정확도 이미지](image/LeakyReLU_정확도.png)에서 확인 가능합니다.  
+![LeakyReLU_정확도 이미지](image/LeakyRelu_정확도.png)에서 확인 가능합니다.  
 
 파일: [`leakyReLu_in_cnn.py`](leakyRelu_in_cnn.py)
 
